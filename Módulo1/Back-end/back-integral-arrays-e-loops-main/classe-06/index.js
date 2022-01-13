@@ -2,12 +2,12 @@ const numeros = [3, 4, 7, 8, 1, 6, 5, 10];
 
 const pares = [];
 
-encontrado = false;
+encontrado = false; // Idem
 
 for (valores of numeros) {
     let y = 0;
     y = valores % 2;
-    if (y <= 0) {
+    if (y <= 0) { // Idem
         encontrado = true;
         pares.push(valores);
     }
@@ -15,7 +15,7 @@ for (valores of numeros) {
 console.log(pares);
 let soma = 0;
 let algo = 0;
-for (let x = 0; x <= pares.length - 1; x++) {
+for (let x = 0; x <= pares.length - 1; x++) { // Idem
     soma += pares[x];
 }
 console.log(soma);
