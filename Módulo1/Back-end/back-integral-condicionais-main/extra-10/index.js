@@ -54,3 +54,7 @@ else if (caractere === "Y") { console.log(`Consoante Maiuscula`) }
 else if (caractere === "Z") { console.log(`Consoante Maiuscula`) }
 else if (caractere <= Infinity) { console.log(`Número`) }
 else { console.log(`Cacartere não definido`) };
+
+// Já pensou se o programador tivesse que fazer isso ai que tu fez em diversas ocasiões?
+// Eu recomendo você fazer de uma outra forma uahsuahs... 
+// Talvez criar um dicionário, talvez usar alguma função que converta pra maiusculo e veja se o caracter é igual...
