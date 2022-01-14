@@ -1,7 +1,7 @@
 const letras = ["A", "a", "B", "C", "E", "e"];
-encontrado = false;
+encontrado = false; // Esqueceu do let?
 let quantidade = 0;
-for (letra of letras) {
+for (letra of letras) { // Esqueceu de do let/const em letra?
     if (letra === "e" || letra === "E") {
         encontrado = true;
         quantidade = quantidade + 1;
